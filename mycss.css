@@ -1,0 +1,126 @@
+.topDiv div {
+    height: 30px;
+    background-color:red;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+
+.scatter-plot{
+    background-color:aqua; 
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+
+.event-sequence {
+    background-color: aqua;
+    position: relative;
+    left: 30px; 
+    width: 525px;
+    height: 400px;
+}
+
+/* Copied from a blog */
+div.tooltip {	
+    font: 12px sans-serif;	
+    position: absolute;			
+    text-align: center;			
+    width: 130px;					
+    height: 28px;					
+    padding: 2px;	
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 10px;			
+    pointer-events: none;			
+}
+
+div.tooltipView {	
+    font: 12px sans-serif;	
+    position: absolute;			
+    text-align: center;			
+    width: 170px;					
+    height: 38px;					
+    padding: 2px;	
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 10px;			
+    pointer-events: none;			
+}
+
+div.tooltipFinalView {	
+    font: 12px sans-serif;	
+    position: absolute;			
+    text-align: center;			
+    width: 50px;					
+    height: 38px;					
+    padding: 2px;	
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 10px;			
+    pointer-events: none;			
+}
+
+.tournamentYears {
+    position: relative;
+    width: 800px;
+    height: 20px;
+    border-style: solid;
+    border-color: black;
+}
+
+.playerJourney{
+    position: relative;
+    bottom: 26px;
+    left: 830px;
+    width: 525px;
+    height: 20px;
+    border-style: solid;
+    border-color: black;
+}
+
+.yearsPara{
+    position: relative;
+    bottom: 12px;
+}
+
+.journeyText{
+    position: relative;
+    bottom: 12px;
+    font-weight: bold;
+}
+
+.finalVisialization{
+    background-color:aqua; 
+    width: 525px;
+    height: 400px;
+    position: relative;
+    left:830px;
+}
+
+.pointsChart{
+    position: relative;
+    bottom: 6px;
+    left: 830px;
+    width: 525px;
+    height: 20px;
+    border-style: solid;
+    border-color: black;
+}
+
+.pointsChartPara{
+   position: relative;
+   bottom: 12px;
+}
+
+.description{
+    background-color:aqua; 
+    width: 800px;
+    height: 500px;
+    position: relative;
+    bottom: 450px;
+}
+
+.descriptionHeader{
+    text-decoration: underline;
+}
